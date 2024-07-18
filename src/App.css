@@ -1,0 +1,27 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+}
+
+.carousel-item img {
+  height: calc(100vh - 80px); /* Ajusta el 80px al tamaño de margen inferior que desees */
+  object-fit: cover;
+}
+
+.carousel-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.carousel-container .carousel {
+  flex: 1 0 auto;
+}
+
+.carousel-caption {
+  background-color: rgba(139, 69, 19, 0.7); /* Fondo café con transparencia */
+  padding: 10px;
+  border-radius: 5px;
+}
